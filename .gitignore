@@ -1,0 +1,41 @@
+# ===== Keil MDK-ARM 编译产物 =====
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/pid_serialPlot/
+MDK-ARM/*.dep
+MDK-ARM/*.scvd
+MDK-ARM/*.bak
+MDK-ARM/*.map
+MDK-ARM/*.lst
+MDK-ARM/*.htm
+MDK-ARM/*.iex
+MDK-ARM/JLinkLog.txt
+
+# Keil 用户特定配置 (每人不同, 不提交; 工程定义 .uvprojx 保留)
+*.uvguix.*
+*.uvoptx
+
+# ===== 编译中间/输出文件 =====
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.sct
+*.lnp
+*.i
+*.bak
+*.tmp
+*.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.workbuddy/
